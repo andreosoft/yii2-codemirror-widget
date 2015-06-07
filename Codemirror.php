@@ -9,11 +9,11 @@ class Codemirror extends InputWidget{
 
     public $editorHeight = '800';
     public $editorOptions = [
-        lineNumbers => true,
-        matchBrackets => true,
-        indentUnit => 4,
-        indentWithTabs => true,
-        mode => 'application/x-httpd-php',
+        'lineNumbers' => true,
+        'matchBrackets' => true,
+        'indentUnit' => 4,
+        'indentWithTabs' => true,
+        'mode' => 'application/x-httpd-php',
     ];
     /**
      * @inheritdoc
