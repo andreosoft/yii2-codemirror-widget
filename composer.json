@@ -1,0 +1,25 @@
+{
+    "name": "andreosoft/yii2-codemirror-widget",
+    "description": "The Codemirror extension for the Yii framework",
+    "keywords": ["yii2", "Codemirror"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/andreosoft/yii2-codemirror-widget"
+    },
+    "authors": [
+        {
+            "name": "Andrey Zagorets",
+            "email": "AndreyZagorets@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/codemirror": "0.*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "andreosoft\\codemirror\\": ""
+        }
+    }
+}
