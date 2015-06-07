@@ -37,4 +37,4 @@ use andreosoft\codemirror\Codemirror;
         'indentWithTabs' => true,
         'mode' => 'application/x-httpd-php',
         ], 
-    'editorHeight' => 200]) ?>
+    'editorHeight' => 800]) ?>
