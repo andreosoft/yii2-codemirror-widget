@@ -15,6 +15,7 @@ class Codemirror extends InputWidget{
         'indentWithTabs' => true,
         'mode' => 'application/x-httpd-php',
     ];
+    
     /**
      * @inheritdoc
      */
