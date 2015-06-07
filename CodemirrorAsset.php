@@ -8,7 +8,7 @@ class CodemirrorAsset extends AssetBundle{
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@common/modules/filemanager/widgets/codemirror/assets';
+    public $sourcePath = '@bower/codemirror';
     /**
      * @inheritdoc
      */
