@@ -27,7 +27,14 @@ Once the extension is installed, simply use it in your code by  :
 
 use andreosoft\codemirror\Codemirror; 
 
-
-echo $form->field($model, 'content')->widget(Codemirror::className()) ?>
-
 ?>
+
+<?= $form->field($model, 'content')->widget(Codemirror::className(), [
+    'editorOptions' => [
+        'lineNumbers' => true,
+        'matchBrackets' => true,
+        'indentUnit' => 4,
+        'indentWithTabs' => true,
+        'mode' => 'application/x-httpd-php',
+        ], 
+    'editorHeight' => 200]) ?>
