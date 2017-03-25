@@ -15,7 +15,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "codemirror/codemirror": "*@stable"
+        "bower-asset/codemirror": "*@stable"
     },
     "autoload": {
         "psr-4": {
