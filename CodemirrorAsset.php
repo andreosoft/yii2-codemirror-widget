@@ -21,10 +21,14 @@ class CodemirrorAsset extends AssetBundle{
         'mode/css/css.js',
         'mode/clike/clike.js',
         'mode/php/php.js',
-
+        'addon/hint/show-hint.js',
+        'addon/hint/html-hint.js',
+        'addon/hint/xml-hint.js',
+        'addon/format/formatting.js',
         
     ];
     public $css = [
         'lib/codemirror.css',
+        'addon/hint/show-hint.css',
     ];
 } 
